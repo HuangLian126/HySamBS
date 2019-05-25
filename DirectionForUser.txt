@@ -1,0 +1,14 @@
+
+If you want to test our code, please install visual studio 2013 and opencv 2.4.10. All the setting parameters  need not be modified, except for parameters of Canny operator.
+
+1)for Intermittent Object Motion sequence
+   main.cpp/line 193/Canny(CurrImg, CurrImgEdge, 300, 550, 3);
+   main.cpp/line 195/Canny(CurrImg, CurrImgEdge, 100, 200, 3);
+   main.cpp/line 532/Canny(CurrImg, CurrImgEdge, 100, 200, 3);
+   main.cpp/line 606/Canny(CurrImg, CurrImgEdge, 100, 200, 3);
+
+2)for other sequences
+   main.cpp/line 193/Canny(CurrImg, CurrImgEdge, 100, 200, 3);
+   main.cpp/line 195/Canny(CurrImg, CurrImgEdge, 100, 200, 3);
+   main.cpp/line 532/Canny(CurrImg, CurrImgEdge, 450, 900, 3);
+   main.cpp/line 606/Canny(CurrImg, CurrImgEdge, 450, 900, 3);
